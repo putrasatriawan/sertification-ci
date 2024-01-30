@@ -133,19 +133,6 @@ $config['identity_cookie_name'] = 'identity';
  | 	  'file' = Use the default CI config or use from a config file
  | 	  array  = Manually set your email config settings
  */
-$config['use_ci_email'] = FALSE; // Send Email using the builtin CI email class, if false it will return the code and the identity
-$config['email_config'] = array(
-    'mail_protocol' => 'smtp',
-    'mail_host' => 'mail.zonewave.com',
-    'mail_port' => '465',
-    'mail_user' => 'developer@zonewave.com',
-    'mail_pass' => 'p0h0d3u1??',
-    'mailtype' => 'html',
-    'mail_charset' => 'iso-8859-1',
-    'newline' => "\r\n",
-    'mail_timeout' => '4',
-    'wordwrap' => TRUE
-);
 
 
 /*
